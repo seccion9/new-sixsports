@@ -1,0 +1,275 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* DETALLE DE PERFIL */
+.profile-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.profile-presentation {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.profile-information {
+  flex: 1;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+
+.profile-image-container {
+  position: relative;
+  width: 320px;
+  height: 420px;
+  margin-top: 70px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.profile-image-container h4 {
+  color: gray;
+  font-size: 20px;
+}
+
+.profile-image {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.profile-languages {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+.language-icon {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caroussel {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-title {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.img-selectors {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.img-selector {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ccc;
+}
+
+.img-selector.active {
+  background-color: #666;
+}
+
+/* INFORMACIÓN PERSONAL */
+.main-text {
+  font-size: 18px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.main-text h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.studies {
+  margin-bottom: 20px;
+}
+
+.studies ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.studies ul li {
+  color: #f0cb56;
+  border: 2px solid #f0cb56;
+  width: 100%;
+  max-width: 255px;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: all 250ms ease;
+}
+
+.studies ul li:hover {
+  background-color: #f0cc562c;
+}
+
+.studies h3 {
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+/* MENTORÍAS Y CALENDAR*/
+.mentorship-container {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.mentorship-section {
+  margin-right: 30px;
+  max-width: 320px;
+  position: relative;
+}
+
+.mentorship-section ul {
+  list-style: circle;
+  margin-left: 17px;
+}
+
+.mentorship-section h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  flex: 1;
+}
+
+.mentorship-section article {
+  margin-bottom: 40px;
+}
+
+/* Estilos del calendario y botón */
+.calendar-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar-section h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 14px 0px;
+}
+
+/* BOTÓN SECUNDARIO PARA AGENDAR MENTORÍA */
+.calendar-button {
+  display: block;
+
+  text-decoration: none;
+  background-color: #ffffffeb;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 3px;
+  fill: #ca1616;
+  color: #ca1616;
+  border-style: solid;
+  border-color: 2px #ca1616;
+  padding: 15px;
+  transition: all 300ms ease-in;
+  max-width: 300px;
+  cursor: pointer;
+}
+
+.calendar-button:hover {
+  background-color: #b21d1d37;
+}
+
+/* Estilos responsivos */
+@media (max-width: 920px) {
+  .studies ul li {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-presentation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-presentation {
+    gap: 0px;
+  }
+
+  .profile-image-container {
+    margin-top: 0px;
+  }
+
+  /* El texto de la mentorship se queda arriba, solo, y justo debajo el widget. 
+  En el escritorio está el texto a la izquierda y el widget a la derecha.  */
+  .mentorship-container {
+    flex-direction: column;
+  }
+
+  .mentorship-section {
+    max-width: 100%;
+    margin: 0px;
+  }
+
+  .calendar-section {
+    width: 100%;
+  }
+
+  .calendar-button {
+    margin: 0px auto;
+  }
+
+  iframe {
+    margin: 0px auto;
+    display: block;
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media (max-width: 400px) {
+  iframe {
+    width: 320px;
+    height: 300px;
+  }
+}
