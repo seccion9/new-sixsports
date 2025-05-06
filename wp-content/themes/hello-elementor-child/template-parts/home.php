@@ -558,7 +558,7 @@ get_header(); ?>
         <h2>Encuentra tu mentor/a</h2>
     </div>
     <div class="info-imagen">
-        <img src="https://sixsport.es/wp-content/uploads/2023/12/logo-naranja_01.svg" alt="tu-mentor">
+        <img src="https://new.sixsport.es/wp-content/uploads/2023/12/logo-naranja_01.svg" alt="tu-mentor">
     </div>
 </div>
 
@@ -568,7 +568,7 @@ get_header(); ?>
         <h2>Encuentra tu comunidad deportiva</h2>
     </div>
     <div class="info-imagen">
-      <img src="https://sixsport.es/wp-content/uploads/2023/12/logo_rojo2.svg" alt="comunidad-deportiva">
+      <img src="https://new.sixsport.es/wp-content/uploads/2023/12/logo_rojo2.svg" alt="comunidad-deportiva">
   </div>
 </div>
 
@@ -578,7 +578,7 @@ get_header(); ?>
         <h2>Encuentra oportunidades</h2>
     </div>
     <div class="info-imagen">
-        <img src="https://sixsport.es/wp-content/uploads/2023/12/5b119203609ebea7bfbe90cb_logoExchangeVertical.svg" alt="oportunidades">
+        <img src="https://new.sixsport.es/wp-content/uploads/2023/12/5b119203609ebea7bfbe90cb_logoExchangeVertical.svg" alt="oportunidades">
     </div>
 </div>
 <!-- Linea separatoria -->
@@ -590,9 +590,9 @@ get_header(); ?>
 <div>
   <div class="slider-container">
       <div class="slider">
-          <img src="https://sixsport.es/wp-content/uploads/2023/12/internationalBackground.webp" alt="Imagen 1">
-          <img src="https://sixsport.es/wp-content/uploads/2023/12/trainning-background.webp" alt="Imagen 2">
-          <img src="https://sixsport.es/wp-content/uploads/2023/12/5fce2d0d1a805dbf35e57b0e_coaching_background.webp" alt="Imagen 3">
+          <img src="https://new.sixsport.es/wp-content/uploads/2023/12/internationalBackground.webp" alt="Imagen 1">
+          <img src="https://new.sixsport.es/wp-content/uploads/2023/12/trainning-background.webp" alt="Imagen 2">
+          <img src="https://new.sixsport.es/wp-content/uploads/2023/12/5fce2d0d1a805dbf35e57b0e_coaching_background.webp" alt="Imagen 3">
       </div>
       <div class="dots-container">
           <span class="dot active" onclick="currentSlide(1)"></span>
@@ -615,7 +615,7 @@ get_header(); ?>
 <div class="container">
     <!-- Tarjeta 1 -->
     <div class="card">
-      <img src="https://sixsport.es/wp-content/uploads/2023/12/abrahamProfile.webp" alt="Persona 1" class="profile-img">
+      <img src="https://new.sixsport.es/wp-content/uploads/2023/12/abrahamProfile.webp" alt="Persona 1" class="profile-img">
       <p class="description">
         Lorem ipsum dolor sit amet consectetur adipiscing elit erat vel lacinia tortor sem, mauris netus hac mollis dis sociis volutpat turpis interdum nascetur ornare.
       </p>
@@ -623,7 +623,7 @@ get_header(); ?>
     
     <!-- Tarjeta 2 -->
     <div class="card">
-      <img src="https://sixsport.es/wp-content/uploads/2023/12/amyProfile.png" alt="Persona 2" class="profile-img">
+      <img src="https://new.sixsport.es/wp-content/uploads/2023/12/amyProfile.png" alt="Persona 2" class="profile-img">
       <p class="description">
         Lorem ipsum dolor sit amet consectetur adipiscing elit erat vel lacinia tortor sem, mauris netus hac mollis dis sociis volutpat turpis interdum nascetur ornare.
       </p>
@@ -639,7 +639,7 @@ get_header(); ?>
 
     <!-- Tarjeta 4 -->
     <div class="card">
-      <img src="https://sixsport.es/wp-content/uploads/2023/12/danProfile.png" alt="Persona 1" class="profile-img">
+      <img src="https://new.sixsport.es/wp-content/uploads/2023/12/danProfile.png" alt="Persona 1" class="profile-img">
       <p class="description">
         Lorem ipsum dolor sit amet consectetur adipiscing elit erat vel lacinia tortor sem, mauris netus hac mollis dis sociis volutpat turpis interdum nascetur ornare.
       </p>
@@ -655,7 +655,7 @@ get_header(); ?>
 
     <!-- Tarjeta 6 -->
     <div class="card">
-      <img src="https://sixsport.es/wp-content/uploads/2023/12/Gabi.png" alt="Sin imagen" class="profile-img">
+      <img src="https://new.sixsport.es/wp-content/uploads/2023/12/Gabi.png" alt="Sin imagen" class="profile-img">
       <p class="description">
         Lorem ipsum dolor sit amet consectetur adipiscing elit erat vel lacinia tortor sem, mauris netus hac mollis dis sociis volutpat turpis interdum nascetur ornare.
       </p>

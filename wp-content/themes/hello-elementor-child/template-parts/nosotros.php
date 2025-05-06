@@ -262,7 +262,7 @@ Eliminar este código y remplazar las clases del botón con las de WP para que t
               <li>
                 <img
                   alt="spanish flag"
-                  src="https://sixsport.es/wp-content/uploads/2025/04/spain.png"
+                  src="https://new.sixsport.es/wp-content/uploads/2025/04/spain.png"
                   width="20px"
                   height="20px"
                 />
@@ -270,7 +270,7 @@ Eliminar este código y remplazar las clases del botón con las de WP para que t
               <li>
                 <img
                   alt="english flag"
-                  src="https://sixsport.es/wp-content/uploads/2025/04/united-kingdom.png"
+                  src="https://new.sixsport.es/wp-content/uploads/2025/04/united-kingdom.png"
                   width="20px"
                   height="20px"
                 />
@@ -280,7 +280,7 @@ Eliminar este código y remplazar las clases del botón con las de WP para que t
             <!-- Nombre, foto y cargo -->
             <img
               class="person-image"
-              src="https://sixsport.es/wp-content/uploads/2023/12/abrahamProfile.webp"
+              src="https://new.sixsport.es/wp-content/uploads/2023/12/abrahamProfile.webp"
             />
             <button class="border-bottom-left-to-right">
               <h4>ABRAHAM</h4>
@@ -312,7 +312,7 @@ Eliminar este código y remplazar las clases del botón con las de WP para que t
               <li>
                 <img
                   alt="english flag"
-                  src="https://sixsport.es/wp-content/uploads/2025/04/united-kingdom.png"
+                  src="https://new.sixsport.es/wp-content/uploads/2025/04/united-kingdom.png"
                   width="20px"
                   height="20px"
                 />
@@ -322,7 +322,7 @@ Eliminar este código y remplazar las clases del botón con las de WP para que t
             <!-- Nombre, foto y cargo -->
             <img
               class="person-image"
-              src="https://sixsport.es/wp-content/uploads/2023/12/amyProfile.png"
+              src="https://new.sixsport.es/wp-content/uploads/2023/12/amyProfile.png"
             />
             <button class="border-bottom-left-to-right">
               <h4>AMY</h4>
@@ -355,7 +355,7 @@ Eliminar este código y remplazar las clases del botón con las de WP para que t
               <li>
                 <img
                   alt="spanish flag"
-                  src="https://sixsport.es/wp-content/uploads/2025/04/spain.png"
+                  src="https://new.sixsport.es/wp-content/uploads/2025/04/spain.png"
                   width="20px"
                   height="20px"
                 />
@@ -363,7 +363,7 @@ Eliminar este código y remplazar las clases del botón con las de WP para que t
               <li>
                 <img
                   alt="english flag"
-                  src="https://sixsport.es/wp-content/uploads/2025/04/united-kingdom.png"
+                  src="https://new.sixsport.es/wp-content/uploads/2025/04/united-kingdom.png"
                   width="20px"
                   height="20px"
                 />
@@ -373,7 +373,7 @@ Eliminar este código y remplazar las clases del botón con las de WP para que t
             <!-- Nombre, foto y cargo -->
             <img
               class="person-image"
-              src="https://sixsport.es/wp-content/uploads/2023/12/danProfile.png"
+              src="https://new.sixsport.es/wp-content/uploads/2023/12/danProfile.png"
             />
             <button class="border-bottom-left-to-right">
               <h4>DAN</h4>
@@ -404,14 +404,14 @@ Eliminar este código y remplazar las clases del botón con las de WP para que t
               <li>
                 <img
                   alt="spanish flag"
-                  src="https://sixsport.es/wp-content/uploads/2025/04/spain.png"
+                  src="https://new.sixsport.es/wp-content/uploads/2025/04/spain.png"
                   width="20px"
                   height="20px"
                 />
               </li>
             </ul>
             <!-- Nombre, foto y cargo -->
-            <img class="person-image" src="https://sixsport.es/wp-content/uploads/2023/12/Gabi.png" />
+            <img class="person-image" src="https://new.sixsport.es/wp-content/uploads/2023/12/Gabi.png" />
             <button class="border-bottom-left-to-right">
               <h4>GABI</h4>
             </button>
@@ -441,7 +441,7 @@ Eliminar este código y remplazar las clases del botón con las de WP para que t
               <li>
                 <img
                   alt="english flag"
-                  src="https://sixsport.es/wp-content/uploads/2025/04/united-kingdom.png"
+                  src="https://new.sixsport.es/wp-content/uploads/2025/04/united-kingdom.png"
                   width="20px"
                   height="20px"
                 />
@@ -451,7 +451,7 @@ Eliminar este código y remplazar las clases del botón con las de WP para que t
             <!-- Nombre, foto y cargo -->
             <img
               class="person-image"
-              src="https://sixsport.es/wp-content/uploads/2023/12/jessieProfile.png"
+              src="https://new.sixsport.es/wp-content/uploads/2023/12/jessieProfile.png"
             />
             <button class="border-bottom-left-to-right">
               <h4>AMY</h4>

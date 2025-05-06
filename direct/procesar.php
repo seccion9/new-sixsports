@@ -32,9 +32,9 @@
 	$miObj->setParameter("DS_MERCHANT_CURRENCY",$moneda);
 	$miObj->setParameter("DS_MERCHANT_TRANSACTIONTYPE",$trans);
 	$miObj->setParameter("DS_MERCHANT_TERMINAL",$terminal);
-	$miObj->setParameter("DS_MERCHANT_MERCHANTURL", "https://sixsport.es");
-	$miObj->setParameter("DS_MERCHANT_URLOK", "https://sixsport.es/direct/tpv_ok.php");
-	$miObj->setParameter("DS_MERCHANT_URLKO", "https://sixsport.es/direct/tpv_ko.php");
+	$miObj->setParameter("DS_MERCHANT_MERCHANTURL", "https://new.sixsport.es");
+	$miObj->setParameter("DS_MERCHANT_URLOK", "https://new.sixsport.es/direct/tpv_ok.php");
+	$miObj->setParameter("DS_MERCHANT_URLKO", "https://new.sixsport.es/direct/tpv_ko.php");
 
 	//Datos de configuración
 	$version="HMAC_SHA256_V1";

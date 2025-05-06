@@ -20,7 +20,7 @@
     <script>
     // Redirigir después de 5 segundos
     setTimeout(function() {
-        window.location.href = "https://sixsport.es";
+        window.location.href = "https://new.sixsport.es";
     }, 5000);
     </script>
 </head>
@@ -29,7 +29,7 @@
     <div class="mensaje">
         <h2>Error: There was an issue processing your payment.</h2>
         <p>Please try again using the link that has been sent to you.</p>
-        <p>You will be redirected to sixsport.es shortly.</p>
+        <p>You will be redirected to new.sixsport.es shortly.</p>
     </div>
 </body>
 

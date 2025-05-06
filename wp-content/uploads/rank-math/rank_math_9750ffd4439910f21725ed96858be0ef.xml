@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//sixsport.es/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//new.sixsport.es/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://sixsport.es/category/emocional/</loc>
+		<loc>https://new.sixsport.es/category/emocional/</loc>
 		<lastmod>2025-02-05T14:46:15+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sixsport.es/category/habitos-para-una-vida-saludable/</loc>
+		<loc>https://new.sixsport.es/category/habitos-para-una-vida-saludable/</loc>
 		<lastmod>2024-10-29T12:12:55+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sixsport.es/category/espiritual/</loc>
+		<loc>https://new.sixsport.es/category/espiritual/</loc>
 		<lastmod>2024-10-29T12:14:55+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sixsport.es/category/mental/</loc>
+		<loc>https://new.sixsport.es/category/mental/</loc>
 		<lastmod>2024-10-29T12:08:35+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sixsport.es/category/relacional/</loc>
+		<loc>https://new.sixsport.es/category/relacional/</loc>
 		<lastmod>2025-02-05T14:48:44+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://sixsport.es/category/naturaleza/</loc>
+		<loc>https://new.sixsport.es/category/naturaleza/</loc>
 		<lastmod>2024-10-29T12:13:33+00:00</lastmod>
 	</url>
 </urlset>

@@ -98,8 +98,8 @@ define( 'WP_DEBUG', false );
 /* Add any custom values between this line and the "stop editing" line. */
 
 
-define( 'WP_HOME', 'https://sixsport.es' );
-define( 'WP_SITEURL', 'https://sixsport.es' );
+define( 'WP_HOME', 'https://new.sixsport.es' );
+define( 'WP_SITEURL', 'https://new.sixsport.es' );
 define('COOKIE_DOMAIN', $_SERVER['HTTP_HOST'] );
 /* That's all, stop editing! Happy publishing. */
 
