@@ -1,0 +1,199 @@
+# Translation of Plugins - Christmasify! - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Christmasify! - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-23 23:00:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Christmasify! - Development (trunk)\n"
+
+#: admin/partials/cf-christmasification-admin-display.php:130
+msgid "Deactivate after this date"
+msgstr "Desactivar después de esta fecha"
+
+#: admin/partials/cf-christmasification-admin-display.php:128
+msgid "Deactivation Date"
+msgstr "Fecha de desactivación"
+
+#: admin/partials/cf-christmasification-admin-display.php:123
+msgid "Activate after this date"
+msgstr "Activar después de esta fecha"
+
+#: admin/partials/cf-christmasification-admin-display.php:122
+msgid "Activation Date"
+msgstr "Fecha de activación"
+
+#: admin/partials/cf-christmasification-admin-display.php:112
+msgid "Other Settings"
+msgstr "Otros ajustes"
+
+#: admin/partials/cf-christmasification-admin-display.php:88
+msgid "Content Styling"
+msgstr "Estilo del contenido"
+
+#: admin/partials/cf-christmasification-admin-display.php:72
+msgid "Music"
+msgstr "Música"
+
+#: admin/partials/cf-christmasification-admin-display.php:57
+msgid "Fast"
+msgstr "Rápido"
+
+#: admin/partials/cf-christmasification-admin-display.php:56
+msgid "Slow"
+msgstr "Lento"
+
+#: admin/partials/cf-christmasification-admin-display.php:55
+msgid "Default"
+msgstr "Predeterminado"
+
+#: admin/partials/cf-christmasification-admin-display.php:52
+#: admin/partials/cf-christmasification-admin-display.php:53
+msgid "Snow Speed"
+msgstr "Velocidad de la nieve"
+
+#: admin/class-cf-christmasification-admin.php:70
+msgid "Settings"
+msgstr "Ajustes"
+
+#. Plugin Name of the plugin
+#: cf-christmasification.php
+msgid "Christmasify! By Cyber Fox"
+msgstr "Christmasify! Por Cyber Fox"
+
+#: admin/partials/cf-christmasification-admin-display.php:25
+msgid "Dismiss this notice"
+msgstr "Descarta este aviso"
+
+#: admin/partials/cf-christmasification-admin-display.php:23
+msgid "If you like this plugin please give us a nice rating on <a href=\"https://wordpress.org/plugins/christmasify/\" target=\"_blank\">WordPress</a>. If you're feeling extra generous, you could <a href=\"https://www.buymeacoffee.com/CyberFox\" target=\"_blank\">buy us a coffee!</a> :)"
+msgstr "Si te gusta este plugin, por favor, danos una buena valoración en <a href=\"https://wordpress.org/plugins/christmasify/\" target=\"_blank\">WordPress</a>. ¡Si te sientes muy generoso, podrías <a href=\"https://www.buymeacoffee.com/CyberFox\" target=\"_blank\">comprarnos un café!</a> :)"
+
+#: admin/partials/cf-christmasification-admin-display.php:137
+msgctxt "Button Label"
+msgid "Christmasify My Website!"
+msgstr "¡Haz navideña mi web!"
+
+#: admin/partials/cf-christmasification-admin-display.php:82
+msgid "We Wish You a Merry Christmas"
+msgstr "We Wish You a Merry Christmas"
+
+#: admin/partials/cf-christmasification-admin-display.php:81
+msgid "Jingle Bells"
+msgstr "Jingle Bells"
+
+#: admin/partials/cf-christmasification-admin-display.php:80
+msgid "Deck the Halls"
+msgstr "Deck the Halls"
+
+#: admin/partials/cf-christmasification-admin-display.php:79
+msgid "No Music"
+msgstr "Sin música"
+
+#: admin/partials/cf-christmasification-admin-display.php:64
+#: admin/partials/cf-christmasification-admin-display.php:65
+msgid "I prefer my snow more classy!"
+msgstr "¡Prefiero mi nieve más elegante!"
+
+#: admin/partials/cf-christmasification-admin-display.php:18
+msgid "Christmasify! Settings"
+msgstr "Christmasify! Ajustes"
+
+#: admin/partials/cf-christmasification-admin-display.php:145
+msgid "If you like this plugin please give us a like or share this plugin on Facebook :)"
+msgstr "Si te gusta este plugin, por favor, danos me gusta o comparte este plugin en Facebook :)"
+
+#: admin/partials/cf-christmasification-admin-display.php:46
+msgid "Beyond Insanity"
+msgstr "Más allá de la locura"
+
+#: admin/partials/cf-christmasification-admin-display.php:45
+msgid "Insanity"
+msgstr "Locura"
+
+#: admin/partials/cf-christmasification-admin-display.php:44
+msgid "Snowstorm"
+msgstr "Tormenta de nieve"
+
+#: admin/partials/cf-christmasification-admin-display.php:43
+msgid "Heavy"
+msgstr "Fuerte"
+
+#: admin/partials/cf-christmasification-admin-display.php:42
+msgid "Medium"
+msgstr "Media"
+
+#: admin/partials/cf-christmasification-admin-display.php:41
+msgid "Light"
+msgstr "Ligera"
+
+#: admin/partials/cf-christmasification-admin-display.php:40
+msgid "None"
+msgstr "Ninguna"
+
+#: admin/partials/cf-christmasification-admin-display.php:117
+msgid "Only show Christmas effects on the homepage"
+msgstr "Solo mostrar efectos de Navidad en la página de inicio"
+
+#: admin/partials/cf-christmasification-admin-display.php:116
+msgid "Homepage Only?"
+msgstr "¿Solo en la página de inicio?"
+
+#. Author of the plugin
+#: cf-christmasification.php
+msgid "Cyber Fox"
+msgstr "Cyber Fox"
+
+#. Description of the plugin
+#: cf-christmasification.php
+msgid "This plugin gives your website the Christmas feels!"
+msgstr "¡Este plugin le da a tu web sensaciones navideñas!"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: cf-christmasification.php
+msgid "https://cyberfoxdigital.co.uk"
+msgstr "https://cyberfoxdigital.co.uk"
+
+#: admin/partials/cf-christmasification-admin-display.php:104
+#: admin/partials/cf-christmasification-admin-display.php:105
+msgid "Christmassy headings?"
+msgstr "¿Encabezados Christmassy?"
+
+#: admin/partials/cf-christmasification-admin-display.php:99
+msgid "Christmasy decorations for images? Okay!"
+msgstr "¿Decoración Christmasy para las imágenes? ¡Venga!"
+
+#: admin/partials/cf-christmasification-admin-display.php:98
+msgid "Christmas decorations for images?"
+msgstr "¿Decoración Christmasy para las imágenes?"
+
+#: admin/partials/cf-christmasification-admin-display.php:92
+#: admin/partials/cf-christmasification-admin-display.php:93
+msgid "Flying Santa would be awesome!"
+msgstr "¡Papá Noel volando sería la leche!"
+
+#: admin/partials/cf-christmasification-admin-display.php:76
+msgid "My visitors would love this jingle:"
+msgstr "A mis visitantes les gustaría esta canción:"
+
+#: admin/partials/cf-christmasification-admin-display.php:32
+#: admin/partials/cf-christmasification-admin-display.php:38
+msgid "Snowflakes"
+msgstr "Copos de nieve"
+
+#: admin/partials/cf-christmasification-admin-display.php:37
+msgid "I want Snowflakes!"
+msgstr "¡Quiero copos de nieve!"
+
+#: admin/class-cf-christmasification-admin.php:60
+msgid "Christmasify"
+msgstr "Christmasify"
+
+#: admin/class-cf-christmasification-admin.php:60
+msgid "Christmasify!"
+msgstr "Christmasify!"
