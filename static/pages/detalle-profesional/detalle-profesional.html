@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle del Profesional</title>
+    <link rel="stylesheet" href="./detalle-profesional.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <section class="profile-detail">
+        <div class="profile-presentation">
+          <section class="profile-information">
+            <!-- PRESENTACIÓN -->
+            <h2>Juan Pérez</h2>
+
+            <article class="main-text">
+              <i><h3>ESTA ES MI FRASE MOTIVACIONAL: ENTRENA Y DESCANSA.</h3></i>
+              <p>
+                Como entrenador personal certificado con más de 8 años de experiencia, me especializo en
+                crear programas de entrenamiento personalizados que se adaptan perfectamente a tus
+                objetivos y necesidades individuales.
+                <br /><br />
+
+                Me apasiona trabajar con personas de todos los niveles, desde principiantes hasta atletas
+                avanzados, guiándote paso a paso en tu camino hacia una mejor versión de ti mismo.
+                <br /><br />
+                Creo firmemente que el éxito físico se logra con un plan estructurado, constancia y el
+                apoyo adecuado, elementos que garantizo en cada una de mis mentorías.
+              </p>
+            </article>
+            <!-- ESTUDIOS -->
+            <article class="studies">
+              <h3>Estudios/Formación</h3>
+              <ul>
+                <li>LICENCIADA EN EXERCISE SCIENCE</li>
+                <li>L1 CROSSFIT COACH</li>
+                <li>ESPECIALISTA EN PRE Y POST PARTO</li>
+              </ul>
+            </article>
+          </section>
+
+          <!-- CAROUSSEL DE IMÁGENES -->
+          <section class="profile-image-container">
+            <div class="profile-languages">
+              <img src="../../imgs/spain.png" class="language-icon" />
+            </div>
+            <!-- Todas las fotos -->
+            <div class="caroussel">
+              <img
+                id="foto1"
+                src="../../imgs/abrahamProfile.webp"
+                alt="Foto del profesional"
+                class="profile-image active"
+              />
+              <img
+                id="foto2"
+                src="../../imgs/amyProfile.png"
+                alt="Foto del profesional"
+                class="profile-image"
+              />
+              <img
+                id="foto3"
+                src="../../imgs/Gabi.png"
+                alt="Foto del profesional"
+                class="profile-image"
+              />
+              <img
+                id="foto4"
+                src="../../imgs/jessieProfile.png"
+                alt="Foto del profesional"
+                class="profile-image"
+              />
+            </div>
+
+            <h4 class="profile-title">PRESIDENTE SIXSPORT</h4>
+            <div class="img-selectors">
+              <button id="#foto1" class="img-selector active"></button>
+              <button id="#foto2" class="img-selector"></button>
+              <button id="#foto3" class="img-selector"></button>
+              <button id="#foto4" class="img-selector"></button>
+            </div>
+          </section>
+        </div>
+
+        <div class="mentorship-container">
+          <section class="mentorship-section">
+            <h3>1. ¡MENTORÍA PERSONALIZADA!</h3>
+            <article>
+              <p>#Beneficio de contratar una mentoría</p>
+              <p>
+                Descripción de lo que se hace en la mentoría / +info del servicio / + info sobre
+                profesional.
+              </p>
+              <p>
+                Descripción de lo que se hace en la mentoría / +info del servicio / + info sobre
+                profesional.
+              </p>
+
+              <ul>
+                <li>LICENCIADA EN EXERCISE SCIENCE</li>
+                <li>L1 CROSSFIT COACH</li>
+                <li>ESPECIALISTA EN PRE Y POST PARTO</li>
+              </ul>
+            </article>
+            <a href="#" class="calendar-button">AGENDAR MENTORÍA</a>
+          </section>
+
+          <section class="calendar-section">
+            <h3>HUECOS DISPONIBLES</h3>
+            <div class="calendar-widget">
+              <!-- Aquí iría el widget del Google Calendar -->
+              <iframe
+                src="https://calendar.google.com/calendar/embed?src=a31fb45c787b8141be34e8cacea7955c4ecff716b0fc0ed31e7a0008c9ed0693%40group.calendar.google.com&ctz=Europe%2FLondon"
+                style="border: 0"
+                width="500"
+                height="500"
+                frameborder="0"
+                scrolling="no"
+              ></iframe>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const imgSelectors = document.querySelectorAll(".img-selector");
+        const imgs = document.querySelectorAll(".profile-image");
+        let currentIndex = 0;
+        let intervalId;
+
+        setupCarousel();
+        startAutoRotation();
+
+        function setupCarousel() {
+          // La imagen inicial es la primera
+          hideUnactiveImgs(imgs);
+
+          imgSelectors.forEach((selector, index) => {
+            selector.addEventListener("click", function () {
+              // Si el usuario hace click se detiene la rotación automática
+              stopAutoRotation();
+
+              currentIndex = index;
+              updateCarousel();
+
+              // Reiniciar la rotación automática después de un tiempo
+              setTimeout(startAutoRotation, 4000);
+            });
+          });
+        }
+
+        function startAutoRotation() {
+          // Evitar múltiples intervalos
+          if (intervalId) {
+            clearInterval(intervalId);
+          }
+
+          // Establecer intervalo para rotación automática
+          intervalId = setInterval(function () {
+            /* Cuando llega al final del array, el "% imgs.length" se asegura de que el currentIndex nunca sea mayor que el index final del array.*/
+            currentIndex = (currentIndex + 1) % imgs.length;
+            updateCarousel();
+          }, 1000); // <-- Aquí se cambia la velocidad de cambio de las imágenes
+        }
+
+        function stopAutoRotation() {
+          if (intervalId) {
+            clearInterval(intervalId);
+            intervalId = null;
+          }
+        }
+
+        function updateCarousel() {
+          // Solo ves la imagen que has seleccionado o está en rotación actual
+          imgs.forEach((img, idx) => {
+            img.classList.remove("active");
+            if (idx === currentIndex) {
+              img.classList.add("active");
+            }
+          });
+
+          imgSelectors.forEach((selector, idx) => {
+            selector.classList.remove("active");
+            if (idx === currentIndex) {
+              selector.classList.add("active");
+            }
+          });
+
+          hideUnactiveImgs(imgs);
+        }
+
+        function hideUnactiveImgs(imgs) {
+          /* Primero desaparecen todas aquellas imágenes inactivas */
+          imgs.forEach((img) => {
+            if (!img.classList.contains("active")) {
+              img.style.display = "none";
+            } else {
+              img.style.display = "block";
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,213 @@
+/* Estilos generales */
+.main-nosotros-wrapper {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Separo a propósito este margen porque esto es para separar el código personalizado de esta plantilla con el resto de elementos de WP. */
+  margin-bottom: 40px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 1rem;
+}
+
+.profile-card-list {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-top: 60px;
+  padding: 0px;
+  gap: 25px;
+}
+
+li:has(.profile-card) {
+  height: 720px;
+}
+
+/* Estilo del Header*/
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+  gap: 25px;
+}
+
+.main-header h2 {
+  font-weight: bolder;
+  font-size: 6em;
+  font-style: italic;
+}
+
+.main-header h2,
+.main-header p {
+  margin: 0;
+}
+
+.main-header span {
+  margin-left: 30px;
+}
+
+.main-header p {
+  width: 40%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+}
+
+/* Estilo de la carta del profesional */
+
+.profile-card h6,
+.profile-card h5,
+.profile-card h4 {
+  margin: 0;
+  font-size: 0.83em;
+}
+
+.profile-card {
+  text-align: center;
+  height: 420px;
+  width: 320px;
+
+  position: relative;
+  color: white;
+  background-color: black;
+  padding-bottom: 12px;
+  opacity: 1;
+}
+
+.languages {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  gap: 8px;
+}
+
+.profile-card > {
+  width: 100%;
+}
+
+.profile-card .person-image {
+  height: 320px;
+}
+
+.profile-card h4 {
+  font-size: 32px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.profile-card h5 {
+  color: gray;
+  margin-bottom: 10px;
+  opacity: 0;
+  transition: all 250ms ease;
+}
+
+.profile-card button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 12px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo de la carta de atrás */
+.description-wrapper {
+  height: 295px;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px;
+  text-align: left;
+}
+
+.description-wrapper h6 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description-wrapper p {
+  margin: 0px 0px 0px 10px;
+}
+
+.job-positions {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: disc;
+  margin-left: -10px;
+  gap: 4px;
+}
+
+/* Todo esto son estilos CSS que ya existen en el botón del WP. 
+Eliminar este código y remplazar las clases del botón con las de WP para que tengan los mismos estilos.*/
+.calendar-button {
+  text-decoration: none;
+  background-color: #ffffffeb;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 3px;
+  fill: #ca1616;
+  color: #ca1616;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ca1616;
+  padding: 10px;
+  transition: all 300ms ease-in;
+  max-width: 80%;
+}
+
+.calendar-button:hover {
+  background-color: #b21d1d37;
+}
+
+.description-wrapper div {
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+  /* Manda al final del contenedor los botones */
+  margin-top: auto;
+}
+
+/* Animaciones y efectos de Profile Card */
+.profile-card:hover h5 {
+  opacity: 1;
+}
+
+.border-bottom-left-to-right::after {
+  display: block;
+  content: "";
+  border-bottom: 2px solid transparent;
+  transform-origin: center;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.profile-card:hover .border-bottom-left-to-right::after {
+  border-color: white;
+  transform: scaleX(1);
+}
+
+@media (max-width: 870px) {
+  .main-header h2 {
+    font-size: 4em;
+  }
+  .main-header p {
+    width: 100%;
+  }
+}
